@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #EEE;
+    font-family: "Roboto", serif;
+}
+.container{
+    background-color: #f5c9b5;
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 20px;
+}
+.profile_img{
+    width: 100px;
+    height: 120px;
+    border: 5px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header_bio{
+    float: left;
+    padding: 30px;
+}
+h1{
+    text-shadow: #022b2c;
+}
+h1, h2,h3, h4,h5, h6{
+    color: #05858a;
+}
+.header_contact{
+    float: right;
+    padding: 30px;
+}
+.header_contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.header_contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div_clear{
+    clear: both;
+}
+hr{
+    border: 5px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+#personal_info{
+
+}
+.common_hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin:20px auto;
+}
+.content{
+    margin-bottom: 30px;
+}
+.left{
+    width: 30%;
+    float: left;
+}
+.right{
+    width: 70%;
+    float: left;
+}
+p{
+    text-align: justify;
+    font-size: 12px;
+}
+.right_1{
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding: 0px 20px 0px 20px;
+}
+.right_2{
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding: 0px 20px 0px 20px;
+}
+.bottom_container{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.bottom_container a{
+   color: white;
+   text-decoration: none;
+   margin: 20px;
+}
+.bottom_container a:hover{
+    color: rgb(166, 235, 76);
+    text-decoration: none;
+    margin: 20px;
+    text-decoration: underline;
+ }
+ .bottom_container a:visited{
+    color: rgb(201, 101, 87);
+   
+ }
+.bottom_container p{
+    color: white;
+    margin: 20px;
+    margin-top: 20px;
+    text-align: center;
+ }
